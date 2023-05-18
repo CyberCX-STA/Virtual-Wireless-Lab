@@ -1,0 +1,21 @@
+
+## Introduction
+
+This archive contains a series of different lab exercies with the aim to teach the fundamentals around pentesting of 802.11 networks. Previously, these exercises were given during an internal training conference to upskill colleagues in the areas of wireless technologies.
+
+## Installation
+
+In addition to a default Kali installation, you will also require the following:
+
+	hostapd (apt update && apt upgrade && apt install -y hostapd)
+	rogue (git clone https://github.com/InfamousSYN/rogue)
+	PBKDF2 (pip3 install pbkdf2)
+
+## Usage
+
+To launch each challenge, move into the appropriate lab directory and use the lab launcher script using python3. The launcher will then take care of everything else that is required.
+
+	cd wifi-lab/lab1
+	python3 lab1-launcher.py
+
+
